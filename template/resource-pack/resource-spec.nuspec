@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Durr-Data</id>
+    <version>1.0.0</version>
+    <title>Durr</title>
+    <authors>NVA</authors>
+    <owners>NimeshVdagama</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Zementis ZMK package</description>
+    <tags>Durr, Model</tags>
+    <contentFiles>
+      <files include="Data/Durr.csv" buildAction="Content" copyToOutput="false" flatten="true" />
+    </contentFiles>
+  </metadata>
+  <files>
+   <file src="*\**" target="\" exclude="obj\**\*.*"/>
+   </files>
+</package>
