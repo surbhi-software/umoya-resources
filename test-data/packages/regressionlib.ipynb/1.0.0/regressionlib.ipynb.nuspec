@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>RegressionLib.ipynb</id>
+    <version>1.0.0</version>
+    <title>Durr</title>
+    <authors>Anil</authors>
+    <owners>Swapnil</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://localhost:5000/icons/code.png</iconUrl>
+    <description>Regression common library code</description>
+    <tags>Durr, Code</tags>
+    <contentFiles>
+      <files include="Code/regression.pmml" buildAction="Content" copyToOutput="false" flatten="true" />
+    </contentFiles>
+  </metadata>
+</package>

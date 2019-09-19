@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>DataJSON</id>
+    <version>2.2.0</version>
+    <title>Durr</title>
+    <authors>Vinay</authors>
+    <owners>Rainer</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://localhost:5000/icons/data.png</iconUrl>
+    <description>Durr Data enhance</description>
+    <tags>Durr, Data</tags>
+    <contentFiles>
+      <files include="Data/DurrData.json" buildAction="Content" copyToOutput="false" flatten="true" />
+    </contentFiles>
+  </metadata>
+</package>

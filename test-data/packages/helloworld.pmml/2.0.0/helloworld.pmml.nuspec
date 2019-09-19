@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>HelloWorld.pmml</id>
+    <version>2.0.0</version>
+    <title>Durr</title>
+    <authors>Vinay</authors>
+    <owners>Swapnil</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://localhost:5000/icons/model.png</iconUrl>
+    <description>Durr model added regression</description>
+    <tags>Durr, Model</tags>
+    <contentFiles>
+      <files include="Model/HelloWorld.pmml" buildAction="Content" copyToOutput="false" flatten="true" />
+    </contentFiles>
+  </metadata>
+</package>
