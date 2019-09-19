@@ -1,2 +1,2 @@
 # umoya-resources
-It contains umoya resources like template, test-data and icons for data, model and code.
+It contains umoya resources like templates, test-data and icons for data, model and code.
