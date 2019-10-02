@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
-    <id>Durr</id>
-    <version>3.0.0</version>
+    <id>TestScenarios</id>
+    <version>1.0.0</version>
     <title>Durr</title>
-    <authors>Anil</authors>
-    <owners>Swapnil</owners>
+    <authors>Swapnil</authors>
+    <owners>Nimesh</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://localhost:8007/icons/model.png</iconUrl>
-    <description>Durr Model enhance. It has code dependency</description>
+    <description>Durr Test Scenarios for minimam value inclusive</description>
     <tags>Durr, Model</tags>
     <dependencies>
-      <dependency id="DurrCode.ipynb" version="3.0.0" />
+      <dependency id="DurrCode.ipynb" version="1.0.0" />
     </dependencies>
     <contentFiles>
       <files include="Models/Durr.pmml" buildAction="Content" copyToOutput="false" flatten="true" />

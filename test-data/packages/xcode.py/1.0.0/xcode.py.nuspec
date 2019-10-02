@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>XCode.py</id>
+    <version>1.0.0</version>
+    <title></title>
+    <authors>Peeyush</authors>
+    <owners>Peeyush</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://localhost:5000/icons/code.png</iconUrl>
+    <description>Durr Code</description>
+    <summary>HelloWorld test code python</summary>
+    <tags>Durr, Code</tags>
+    <contentFiles>
+      <files include="Code/HelloClass.ipynb" buildAction="Content" copyToOutput="false" flatten="true" />
+    </contentFiles>
+  </metadata>
+</package>
