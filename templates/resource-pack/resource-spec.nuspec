@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Durr</id>
-    <version>3.0.0</version>
-    <title>Durr</title>
-    <authors>Anil</authors>
-    <owners>Swapnil</owners>
+    <id>${ResourceName}</id>
+    <version>${ResourceVersion}</version>
+    <title>${ResourceName}</title>
+    <authors>${Authors}</authors>
+    <owners>${Owners}</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Durr Model enhance -- It has code dependency</description>
-    <iconUrl>http://localhost:5000/icons/model.png</iconUrl>
-    <tags>Durr, Model</tags>
+    <description>${Description}</description>
+    <iconUrl>/icons/${ResourceType}.png</iconUrl>
+    <tags>${ResourceType}</tags>
     <contentFiles>
-      <files include="Models/Durr.pmml" buildAction="Content" copyToOutput="false" flatten="true" />
+      <files include="${ResourceType}/${ResourceName}" buildAction="Content" copyToOutput="false" flatten="true" />
     </contentFiles>
     <dependencies>
-      <dependency id="HelloClass" version="3.0.0" />
+      <dependency id="${DependentResource}" version="${DependentResourceVersion}" />
     </dependencies>
   </metadata>
   <files>
