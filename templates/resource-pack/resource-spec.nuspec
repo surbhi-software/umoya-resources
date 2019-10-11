@@ -8,7 +8,7 @@
     <owners>${Owners}</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>${Description}</description>
-    <iconUrl>/icons/${ResourceType}.png</iconUrl>
+    <iconUrl>http://localhost:8007/icons/${ResourceType}.png</iconUrl>
     <tags>${ResourceType}</tags>
     <contentFiles>
       <files include="${ResourceType}/${ResourceName}" buildAction="Content" copyToOutput="false" flatten="true" />
